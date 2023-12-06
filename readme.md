@@ -46,7 +46,7 @@ The script contains three functions which could be run directly from the file
 find_similar_papers(paper_id, sim_score=0.6, exclude_authored=False, verbose=False)
 ```
 
-This returns a list of dicts for sound similar papers.
+This returns a list of dicts for found similar papers.
 
 If exclude_authored is set to True, all the papers authored by any author of paper you query are omitted. Useful to find reviewers or potential future coauthors.
 
