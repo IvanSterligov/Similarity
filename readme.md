@@ -17,7 +17,7 @@ I add simple preprocessing (see and modify *preprocess.py*):
 
 - remove case
 - remove 'academic' stopwords ('we present ','we use ','this chapter','the review','we define','we develop','we consider','we study' and the like, copyrights, 'abstract' etc)
-- remove special chars and punctuation (could be important for chamistry, maths etc): 
+- remove special chars and punctuation (could be important for chemistry, maths etc): 
 
 ```
 text = re.sub(r'[^-A-Za-z0-9\s-]+', '', text)
